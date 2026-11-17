@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flow Hire — зарабатывайте на привлечении курьеров</title>
+<meta name="description" content="Станьте партнёром Flow Hire и зарабатывайте на привлечении курьеров. Гибкий формат сотрудничества и поддержка команды.">
+<style>
+:root{--ink:#172b3a;--muted:#667987;--mint:#22b89a;--mint-dark:#10977d;--sky:#eaf7fb;--cream:#fbfdfb;--line:#e7efee;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--cream)}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+header{padding:22px 0;background:rgba(251,253,251,.88);backdrop-filter:blur(12px);position:sticky;top:0;z-index:5;border-bottom:1px solid #edf2ef}.nav{display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:10px;font-size:22px;font-weight:850;letter-spacing:-.8px}.logo{width:38px;height:38px;border-radius:13px;background:linear-gradient(135deg,#35d2b0,#65c8ed);display:grid;place-items:center;color:white;font-weight:900;font-size:19px;box-shadow:0 7px 18px #22b89a35}.navlinks{display:flex;gap:30px;color:#60727e;font-size:14px}.navlinks a:hover{color:var(--mint-dark)}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 21px;border-radius:13px;background:var(--mint);color:white;font-weight:750;border:0;cursor:pointer;box-shadow:0 9px 22px #22b89a35;transition:.2s}.btn:hover{background:var(--mint-dark);transform:translateY(-2px)}.btn.light{background:#e8f8f4;color:#108a73;box-shadow:none}.hero{padding:76px 0 68px;overflow:hidden;background:radial-gradient(ellipse at 82% 30%,#dff6f3 0,transparent 34%),linear-gradient(115deg,#f8fcfa,#eff9fc)}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:55px;align-items:center}.eyebrow{display:inline-flex;gap:8px;align-items:center;padding:8px 13px;border-radius:99px;background:#e4f7f1;color:#168a73;font-size:13px;font-weight:750}.dot{width:7px;height:7px;border-radius:50%;background:#23ba98}.hero h1{font-size:clamp(42px,5.4vw,68px);line-height:1.03;letter-spacing:-3.3px;margin:22px 0 20px;max-width:650px}.hero h1 span{color:var(--mint-dark)}.lead{font-size:18px;line-height:1.65;color:#60727e;max-width:550px;margin:0 0 28px}.actions{display:flex;gap:13px;flex-wrap:wrap}.fine{font-size:12px;color:#81909a;margin-top:17px}.visual{min-height:420px;position:relative;display:grid;place-items:center}.blob{position:absolute;width:350px;height:350px;border-radius:44% 56% 62% 38%/43% 42% 58% 57%;background:linear-gradient(145deg,#c9f3e8,#d9f2fb);transform:rotate(-12deg)}.dashboard{position:relative;width:min(100%,390px);padding:25px;background:#fff;border:1px solid #eaf1ef;border-radius:25px;box-shadow:0 25px 70px #376b6120;transform:rotate(2deg)}.dash-top{display:flex;justify-content:space-between;align-items:center;color:#7a8b92;font-size:12px}.avatar{width:34px;height:34px;border-radius:12px;background:#e5f7f2;display:grid;place-items:center;color:#15977c;font-weight:800}.money{font-size:38px;font-weight:850;letter-spacing:-1.8px;margin:19px 0 4px}.positive{font-size:12px;color:#16a184}.chart{height:105px;display:flex;align-items:end;gap:9px;margin:20px 0 15px;padding:0 4px}.bar{flex:1;border-radius:7px 7px 3px 3px;background:linear-gradient(180deg,#5bd8bb,#b5eee0)}.bar:nth-child(1){height:30%}.bar:nth-child(2){height:47%}.bar:nth-child(3){height:39%}.bar:nth-child(4){height:65%}.bar:nth-child(5){height:54%}.bar:nth-child(6){height:82%}.bar:nth-child(7){height:100%;background:linear-gradient(180deg,#29c5a3,#80e2cc)}.dash-bottom{border-top:1px solid #edf2ef;padding-top:15px;display:flex;justify-content:space-between;font-size:12px;color:#71828a}.float{position:absolute;background:white;border-radius:16px;padding:13px 16px;box-shadow:0 14px 35px #376b6120;font-size:12px;color:#687a83}.float strong{display:block;color:var(--ink);font-size:15px;margin-top:3px}.float.one{left:-5px;top:70px}.float.two{right:-10px;bottom:65px}.section{padding:82px 0}.section-head{text-align:center;max-width:650px;margin:0 auto 42px}.kicker{color:var(--mint-dark);font-size:12px;font-weight:850;letter-spacing:1.5px;text-transform:uppercase}.section h2{font-size:clamp(30px,4vw,43px);letter-spacing:-1.7px;line-height:1.12;margin:12px 0}.section-head p{color:var(--muted);line-height:1.65}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid var(--line);border-radius:21px;padding:27px;box-shadow:0 8px 25px #234b3b08}.num{width:43px;height:43px;border-radius:14px;background:#e8f8f3;color:#14977c;display:grid;place-items:center;font-weight:850}.card h3{font-size:19px;margin:20px 0 9px}.card p{color:var(--muted);font-size:14px;line-height:1.65;margin:0}.income{background:linear-gradient(120deg,#eaf8f5,#eef8fc);border-radius:30px;padding:48px;display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.income h2{font-size:38px;line-height:1.1;letter-spacing:-1.5px;margin:12px 0}.income p{color:#637780;line-height:1.7}.income-box{background:white;border:1px solid #e5f0ed;border-radius:22px;padding:26px}.income-box small{color:#71828a}.income-box strong{display:block;font-size:48px;letter-spacing:-2px;color:#11977d;margin:8px 0}.income-box .note{font-size:12px;color:#83929a;line-height:1.5}.benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.benefit{padding:23px 20px;border-radius:18px;background:white;border:1px solid var(--line)}.benefit .symbol{font-size:23px}.benefit h3{font-size:16px;margin:15px 0 7px}.benefit p{font-size:13px;line-height:1.6;color:var(--muted);margin:0}.cta{padding:65px 30px;border-radius:30px;text-align:center;background:linear-gradient(125deg,#153f4b,#146d68);color:white;position:relative;overflow:hidden}.cta:before,.cta:after{content:"";position:absolute;border:1px solid #ffffff20;border-radius:50%;width:300px;height:300px}.cta:before{left:-120px;top:-170px}.cta:after{right:-110px;bottom:-220px}.cta h2{font-size:clamp(30px,4vw,44px);letter-spacing:-1.5px;margin:0 0 12px;position:relative}.cta p{color:#d0e5e2;line-height:1.6;margin:0 auto 25px;max-width:560px;position:relative}.cta .btn{background:#fff;color:#117c6c;position:relative;box-shadow:none}.faq{max-width:780px;margin:auto}.faq details{padding:20px 0;border-bottom:1px solid var(--line)}.faq summary{font-weight:750;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px}.faq summary:after{content:"+";color:var(--mint-dark);font-size:22px}.faq details[open] summary:after{content:"−"}.faq p{color:var(--muted);line-height:1.65;font-size:14px}footer{padding:30px 0;border-top:1px solid var(--line);color:#81909a;font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px;align-items:center}.modal{display:none;position:fixed;inset:0;background:#102b35a8;z-index:10;padding:20px;align-items:center;justify-content:center}.modal.open{display:flex}.modal-card{background:white;border-radius:23px;padding:30px;width:min(100%,440px);position:relative;box-shadow:0 25px 80px #102b3540}.close{position:absolute;right:18px;top:15px;border:0;background:#eff6f3;border-radius:9px;width:34px;height:34px;font-size:20px;cursor:pointer}.modal h2{margin:5px 0 8px;font-size:27px}.modal p{color:var(--muted);font-size:14px;line-height:1.5}.field{margin:15px 0}.field label{display:block;font-size:12px;font-weight:750;margin-bottom:7px}.field input{width:100%;padding:14px;border:1px solid #dce9e5;border-radius:11px;font:inherit;outline:none}.field input:focus{border-color:var(--mint)}.modal .btn{width:100%;margin-top:7px}.success{display:none;background:#e8f8f3;color:#137b68;padding:14px;border-radius:12px;margin-top:14px;font-size:13px}
+@media(max-width:800px){.navlinks{display:none}.hero{padding:55px 0 40px}.hero-grid{grid-template-columns:1fr;gap:12px}.visual{min-height:360px}.blob{width:290px;height:290px}.dashboard{width:min(90%,370px)}.float.one{left:0}.float.two{right:0}.steps{grid-template-columns:1fr}.income{grid-template-columns:1fr;padding:30px}.benefits{grid-template-columns:repeat(2,1fr)}.section{padding:62px 0}.foot{align-items:flex-start;flex-direction:column}}
+@media(max-width:480px){.wrap{width:min(100% - 30px,1160px)}.brand{font-size:20px}.nav>.btn{padding:11px 13px;font-size:12px}.hero h1{letter-spacing:-2px}.lead{font-size:16px}.visual{min-height:330px}.dashboard{padding:19px}.money{font-size:33px}.float.one{top:40px}.float.two{bottom:35px}.benefits{grid-template-columns:1fr 1fr;gap:10px}.benefit{padding:17px 14px}.income h2{font-size:32px}.income-box strong{font-size:40px}.cta{padding:48px 20px}}
+
+/* FLOW HIRE — визуальное направление по референсу: графит, глубокий синий, белый и холодный серый */
+:root{--ink:#111827;--muted:#687386;--mint:#315fbd;--mint-dark:#234b9e;--sky:#edf0f4;--cream:#f5f6f8;--white:#fff;--line:#e5e8ed}
+body{background:#f4f5f7;color:#151b27}
+header{background:rgba(255,255,255,.94);border-bottom:1px solid #e7e9ed}
+.logo{background:#17243b;box-shadow:none;border-radius:11px}
+.navlinks a:hover{color:#315fbd}
+.btn{background:#244b91;box-shadow:0 8px 20px #172d5228;border-radius:10px}
+.btn:hover{background:#17396f}
+.btn.light{background:#e9edf4;color:#1d3767}
+.hero{background:#111d31;color:#fff;position:relative}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% 20%,#31476770,transparent 34%),linear-gradient(110deg,transparent 60%,#ffffff08 60.2%,transparent 60.5%);pointer-events:none}
+.hero-grid{position:relative;z-index:1}
+.eyebrow{background:#263a58;color:#dce7f8}
+.dot{background:#8daeea}
+.hero h1 span{color:#9ebcf2}
+.lead{color:#c1cada}
+.fine{color:#a5b1c4}
+.blob{background:linear-gradient(145deg,#253b5c,#dce2eb);border-radius:50%;opacity:.95}
+.dashboard{border-radius:15px;box-shadow:0 25px 70px #0005;border:1px solid #e4e8ef;transform:rotate(1deg)}
+.avatar{background:#e9eef7;color:#234b91;border-radius:9px}
+.bar{background:linear-gradient(180deg,#7897cf,#d5deed);border-radius:3px}
+.bar:nth-child(7){background:linear-gradient(180deg,#315fbd,#9db5e0)}
+.positive{color:#315fbd}
+.float{border-radius:10px;box-shadow:0 14px 35px #0003}
+.section{background:#f5f6f8}
+.card,.benefit{border-radius:13px;box-shadow:none;border-color:#e3e6eb}
+.num{background:#e9edf4;color:#244b91;border-radius:9px}
+.income{background:#e9edf3;border-radius:18px}
+.income-box{border-radius:13px;box-shadow:0 12px 35px #182c4b0b}
+.income-box strong{color:#244b91}
+.kicker{color:#315fbd}
+.benefit{background:#fff}
+.cta{background:#14233a;border-radius:18px}
+.cta .btn{background:#fff;color:#193866;box-shadow:none}
+.faq details{border-color:#dfe3e9}
+footer{background:#f5f6f8;border-color:#e2e5ea}
+.modal-card{border-radius:15px}
+.field input{border-radius:9px}
+@media(max-width:800px){.hero{padding-top:54px}}
+
+
+/* FLOW HIRE — мягкая нейтральная палитра: графит, тёплый серый, шалфей */
+:root{--ink:#252b2b;--muted:#727b78;--mint:#879b8d;--mint-dark:#667d70;--sky:#eef1ed;--cream:#f7f7f4;--white:#fff;--line:#e7e9e4}
+body{background:#f7f7f4;color:#252b2b}
+header{background:rgba(250,250,247,.95);border-bottom:1px solid #e8e9e4}
+.logo{background:#303a36;box-shadow:none}
+.navlinks a:hover{color:#667d70}
+.btn{background:#758b7d;box-shadow:0 8px 20px #52695b22}
+.btn:hover{background:#5f7769}
+.btn.light{background:#e9ede8;color:#4e6658}
+.hero{background:#303a36;color:#fff}
+.hero:before{background:radial-gradient(circle at 80% 20%,#788b7c55,transparent 36%),linear-gradient(110deg,transparent 60%,#ffffff08 60.2%,transparent 60.5%)}
+.eyebrow{background:#46544c;color:#e4ebe5}
+.dot{background:#b5c9b8}
+.hero h1 span{color:#c0d0c3}
+.lead{color:#d0d8d1}
+.fine{color:#b7c1b9}
+.blob{background:linear-gradient(145deg,#64766b,#e5e8e1);opacity:.95}
+.dashboard{border-radius:15px;box-shadow:0 25px 70px #0004;border:1px solid #e6e9e3}
+.avatar{background:#edf1eb;color:#647d6e}
+.bar{background:linear-gradient(180deg,#9eafa1,#e0e7df)}
+.bar:nth-child(7){background:linear-gradient(180deg,#829a88,#c5d3c5)}
+.positive{color:#718b78}
+.num{background:#edf1eb;color:#647d6e}
+.income{background:#ecefea}
+.income-box strong{color:#718b78}
+.kicker{color:#718b78}
+.cta{background:#303a36}
+.cta .btn{background:#f4f5f0;color:#465d4e}
+.faq details{border-color:#e3e6df}
+footer{background:#f7f7f4;border-color:#e5e7e1}
+.field input:focus{border-color:#879b8d}
+.success{background:#edf3ed;color:#526e5b}
+
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="#"><span class="logo">F</span>Flow Hire</a><nav class="navlinks"><a href="#how">Как это работает</a><a href="#income">Доход</a><a href="#why">Преимущества</a><a href="#faq">Вопросы</a></nav><button class="btn" onclick="openModal()">Оставить заявку</button></div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid"><div><div class="eyebrow"><span class="dot"></span> Партнёрская программа Flow Hire</div><h1>Зарабатывайте на привлечении <span>курьеров</span></h1><p class="lead">Помогайте людям находить работу курьером и получайте вознаграждение за успешное привлечение. Работайте в удобном темпе — мы поможем разобраться с процессом.</p><div class="actions"><button class="btn" onclick="openModal()">Хочу зарабатывать <span style="margin-left:10px">→</span></button><a class="btn light" href="#how">Узнать подробнее</a></div><div class="fine">Без офиса · Гибкий формат · Поддержка команды</div></div>
+<div class="visual"><div class="blob"></div><div class="float one">Ваш темп работы<strong>Выбираете сами</strong></div><div class="dashboard"><div class="dash-top"><span>Потенциал партнёра</span><span class="avatar">FH</span></div><div class="money">55 000 ₽</div><div class="positive">до этой суммы можно заработать*</div><div class="chart"><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i></div><div class="dash-bottom"><span>Результат зависит от активности</span><b>Flow Hire</b></div></div><div class="float two">Формат сотрудничества<strong>Удалённо</strong></div></div></div></section>
+<section class="section" id="how"><div class="wrap"><div class="section-head"><div class="kicker">Всё просто</div><h2>Как начать зарабатывать</h2><p>Понятный процесс — от первого контакта до вознаграждения за результат.</p></div><div class="steps"><article class="card"><div class="num">01</div><h3>Оставьте заявку</h3><p>Расскажите немного о себе. Команда Flow Hire свяжется с вами и объяснит условия сотрудничества.</p></article><article class="card"><div class="num">02</div><h3>Привлекайте кандидатов</h3><p>Находите людей, которым интересна работа курьером, и передавайте их на следующий этап оформления.</p></article><article class="card"><div class="num">03</div><h3>Получайте вознаграждение</h3><p>Выполняйте условия партнёрской программы и получайте выплаты за подтверждённые результаты.</p></article></div></div></section>
+<section class="section" id="income" style="padding-top:0"><div class="wrap"><div class="income"><div><div class="kicker">Ваш результат</div><h2>До 55 000 ₽ за активное сотрудничество</h2><p>Итоговый доход зависит от количества привлечённых кандидатов, их выхода на работу и действующих условий программы. Чем стабильнее ваша работа, тем выше потенциал заработка.</p><button class="btn" onclick="openModal()">Обсудить условия</button></div><div class="income-box"><small>Потенциальный доход</small><strong>55 000 ₽</strong><div class="note">Максимальный ориентир, а не гарантированная выплата. Фактический размер вознаграждения и условия необходимо подтвердить у менеджера Flow Hire.</div></div></div></div></section>
+<section class="section" id="why"><div class="wrap"><div class="section-head"><div class="kicker">Почему Flow Hire</div><h2>Сотрудничество без лишних сложностей</h2><p>Мы выстраиваем понятную систему, в которой вы можете сосредоточиться на поиске подходящих кандидатов.</p></div><div class="benefits"><div class="benefit"><div class="symbol">🌿</div><h3>Гибкий график</h3><p>Планируйте занятость самостоятельно и работайте в удобное время.</p></div><div class="benefit"><div class="symbol">💻</div><h3>Удалённый формат</h3><p>Для работы не нужен офис — достаточно телефона или компьютера.</p></div><div class="benefit"><div class="symbol">🤝</div><h3>Поддержка команды</h3><p>Поможем разобраться в этапах и ответим на вопросы.</p></div><div class="benefit"><div class="symbol">📈</div><h3>Доход за результат</h3><p>Ваш заработок зависит от активности и успешных привлечений.</p></div></div></div></section>
+<section class="section" style="padding-top:0"><div class="wrap"><div class="cta"><h2>Готовы стать партнёром Flow Hire?</h2><p>Оставьте заявку — расскажем, как устроена программа, какие есть условия и с чего начать.</p><button class="btn" onclick="openModal()">Оставить заявку <span style="margin-left:9px">→</span></button></div></div></section>
+<section class="section" id="faq"><div class="wrap"><div class="section-head"><div class="kicker">FAQ</div><h2>Частые вопросы</h2></div><div class="faq"><details><summary>Нужен ли опыт в подборе персонала?</summary><p>Не обязательно. На старте мы объясним основные этапы и расскажем, как привлекать кандидатов.</p></details><details><summary>Можно ли работать удалённо?</summary><p>Да, сотрудничество предполагает удалённый формат. Подробности взаимодействия обсудит менеджер.</p></details><details><summary>55 000 ₽ — это гарантированный доход?</summary><p>Нет. Это максимальный ориентир потенциального заработка. Фактический доход зависит от результатов и условий партнёрской программы.</p></details><details><summary>Когда я узнаю точные условия?</summary><p>После заявки представитель Flow Hire расскажет о вознаграждении, критериях успешного привлечения и порядке выплат.</p></details></div></div></section>
+</main>
+<footer><div class="wrap foot"><a class="brand" href="#"><span class="logo">F</span>Flow Hire</a><span>Рекрутинговая компания · Привлечение кандидатов</span><span>© 2026 Flow Hire</span></div></footer>
+<div class="modal" id="modal" onclick="if(event.target===this)closeModal()"><div class="modal-card"><button class="close" onclick="closeModal()" aria-label="Закрыть">×</button><div class="kicker">Flow Hire</div><h2>Давайте знакомиться!</h2><p>Оставьте контакты — мы свяжемся с вами и расскажем об условиях партнёрства.</p><form id="leadForm"><div class="field"><label for="name">Ваше имя</label><input id="name" name="name" placeholder="Как к вам обращаться" required></div><div class="field"><label for="phone">Телефон или Telegram</label><input id="phone" name="contact" placeholder="+7 или @username" required></div><button class="btn" type="submit">Отправить заявку</button><div class="success" id="success">Спасибо! Демонстрационная форма работает. Для приёма заявок подключите свой Telegram, почту или CRM.</div></form></div></div>
+<script>
+function openModal(){document.getElementById('modal').classList.add('open');document.body.style.overflow='hidden'}
+function closeModal(){document.getElementById('modal').classList.remove('open');document.body.style.overflow=''}
+document.getElementById('leadForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  const name = document.getElementById('name').value.trim();
+  const contact = document.getElementById('phone').value.trim();
+  const message = `Здравствуйте! Хочу стать партнёром Flow Hire.%0AИмя: ${encodeURIComponent(name)}%0AКонтакт: ${encodeURIComponent(contact)}`;
+  window.open(`https://t.me/flowhire?text=${message}`, '_blank', 'noopener');
+  document.getElementById('success').textContent = 'Открылся Telegram с подготовленной заявкой. Нажмите «Отправить» в чате @flowhire, чтобы передать её.';
+  document.getElementById('success').style.display='block';
+});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+</script>
+</body></html>
